@@ -13,14 +13,13 @@
     <!-- main  -->
     <div class="main h-screen w-screen ">
         <!-- section1 -->
-        <div class="section1 h-full w-full relative ">
-            <video class="  " autoplay muted loop>
-
+        <div class="section1 h-auto w-auto relative ">
+            <video class="h-full w-full" autoplay muted loop>
                 <source class="h-full" src="video2.mp4" media="(max-width: 768px)" type="video/mp4">
                 <source class="w-full" src="video.mp4" media="(min-width: 769px)" type="video/mp4">
             </video>
             <!-- nav -->
-            <div class="nav w-full absolute top-0 px-4  py-4 md:px-[5em] flex justify-between items-center">
+            <div class="nav w-full absolute top-0 p-4  md:px-[5em] flex justify-between items-center">
                 <h2 class="text-xl font-medium text-[#89BA1E] md:text-2xl">PodPeak</h2>
                 <div
                     class="nav_links  text-white hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-md">
@@ -39,14 +38,26 @@
                     class="div nav_links  text-white hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-md">
                     <button class="hover:text-[#89BA1E]">Sign In</button>
                     <button
-                        class=" px-4 py-1.5  rounded-xl bg-[#89BA1E] font-semibold  text-white text-sm hover:bg-[#2ec4b6] hover:text-[#011627]">Sign
+                        class=" px-4 py-1.5  rounded-xl bg-[#89BA1E] font-semibold  text-black text-sm  hover:text-white hover:bg-[#ffc300]">Sign
                         Up</button>
                 </div>
                 <i class="ri-menu-line text-white text-xl font-semibold md:hidden"></i>
 
             </div>
 
-           
+            <!-- hero-section -->
+            <div class="hero-section font-semibold absolute top-44 p-4 text-white w-full md:w-[45%] md:h-1/2  md:ml-28 md:pt-20">
+                <h1 class="text-3xl md:text-6xl md:font-semibold w-[95%]">Your Podcast Hosting
+                    and Monetizing
+                    Platform</h1>
+                <p class="text-md font-normal text-center my-4 md:text-start">Podbean is an easy and powerful way to create, promote and monetize your podcast.
+                    Everything
+                    you need for a successful podcast.</p>
+               <div class="div flex justify-center md:justify-between"> <button class="text-md text-black font-medium bg-[#89BA1E] px-4 md:px-2.5 py-2 rounded-full hover:bg-[#ffc300] hover:text-white">Get Started For Free</button>
+               </div>
+            </div>
+
+            
         </div>
     </div>
 </body>
