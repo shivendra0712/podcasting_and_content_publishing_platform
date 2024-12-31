@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>podcasting_&_content_publishing_platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body>
-    
+    <!-- main  -->
+    <div class="main h-screen w-screen ">
+        <!-- section1 -->
+        <div class="section1 h-full w-full relative ">
+            <video class="  " autoplay muted loop>
+
+                <source class="h-full" src="video2.mp4" media="(max-width: 768px)" type="video/mp4">
+                <source class="w-full" src="video.mp4" media="(min-width: 769px)" type="video/mp4">
+            </video>
+            <!-- nav -->
+            <div class="nav w-full absolute top-0 px-4  py-4 md:px-[5em] flex justify-between items-center">
+                <h2 class="text-xl font-medium text-[#89BA1E] md:text-2xl">PodPeak</h2>
+                <div
+                    class="nav_links  text-white hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-md">
+                    <a class="hover:text-[#89BA1E]" href="#">Features</a>
+                    <a class="hover:text-[#89BA1E]" href="#">Delivery</a>
+                    <a class="hover:text-[#89BA1E]" href="#">Payment</a>
+                    <a class="hover:text-[#89BA1E]" href="#">Contact</a>
+
+                </div>
+                <div class="bg-transparent px-1 md:px-2.5 py-1 rounded-full border-2">
+                    <input type="text" placeholder="Search" class="outline-none  bg-transparent text-white">
+                    <i class="ri-search-line text-white"></i>
+                </div>
+
+                <div
+                    class="div nav_links  text-white hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-md">
+                    <button class="hover:text-[#89BA1E]">Sign In</button>
+                    <button
+                        class=" px-4 py-1.5  rounded-xl bg-[#89BA1E] font-semibold  text-white text-sm hover:bg-[#2ec4b6] hover:text-[#011627]">Sign
+                        Up</button>
+                </div>
+                <i class="ri-menu-line text-white text-xl font-semibold md:hidden"></i>
+
+            </div>
+
+           
+        </div>
+    </div>
 </body>
+
 </html>
